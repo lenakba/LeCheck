@@ -11,6 +11,7 @@ Four items. All are red when triggered.
 - **Check manually when:** the draft says the number is in a table or figure that was not included.
 - **Why:** readers cannot judge precision or generalisability without the sample size.
 - **Send-back wording:** "Please state the number of participants analysed."
+- **Reporting:** this is a whole-section check. Flag it once if the information is missing anywhere in the section. Do not flag it per sentence or per table.
 
 ---
 
@@ -49,6 +50,7 @@ Four items. All are red when triggered.
 - **Check manually when:** the draft says the response rate is reported in Methods or a table that was not included.
 - **Why:** nonresponse affects how far the results can be trusted and generalised.
 - **Send-back wording:** "Please report the response rate (number invited and number responding)."
+- **Reporting:** this is a whole-section check. Flag it once if the information is missing anywhere in the section. Do not flag it per sentence or per table.
 
 ---
 
@@ -63,6 +65,6 @@ Four items. All are red when triggered.
   - the reported percentage differs from the correctly rounded value by **1 percentage point or less** (for example 1 of 11 reported as 10% when the rounded value is 9%), or
   - several group sizes are stated, the percentage matches none of them, and the text could be referring to a subset.
 - **Fine when:** the reported percentage equals the correctly rounded value, or the text names a different denominator and gives its size and the percentage matches it.
-- **Show the calculation:** for every red or check-manually flag, give the sum in the form "count / denominator = x% (reported y%)". If several percentages in the same sentence fail, list one calculation for each. Keep the quote to the shortest part of the sentence that contains the numbers.
+- **Show the calculation:** for every red or check-manually flag, give the calculation for the first occurrence only. For other occurrences, follow the limit in output-format.md.
 - **Why:** a mismatch usually means missing data, a different denominator, or a calculation error, and the reader cannot tell which.
 - **Send-back wording:** "Check each percentage against its denominator, and state the denominator when it differs from the total sample (for example because of missing data at a timepoint)."
