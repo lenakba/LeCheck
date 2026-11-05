@@ -62,4 +62,4 @@ Suggestions are welcome, especially cases where the checker gives a false green 
 
 ## License
 
-Add a license of your choice here (for example MIT or CC BY 4.0).
+CC BY 4.0
