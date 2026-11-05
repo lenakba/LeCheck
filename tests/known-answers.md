@@ -1,0 +1,22 @@
+# Known answers (do NOT upload to the assistant)
+
+Compare the assistant's output with this for each test. Re-run all six after every change to the rubric.
+
+| Test | Expected light | Must be flagged | Must NOT be flagged |
+|------|----------------|-----------------|---------------------|
+| test-01 | RED | Number of participants missing; Percentage without denominator ("80% attending...") | Methods in results; Response rate |
+| test-02 | GREEN | none | anything red |
+| test-03 | RED | Methods described in the results (Kaplan-Meier / log-rank sentence) | Number of participants (156 is stated); Percentage ("94 (60%)" has its group) |
+| test-04 | RED | Response rate missing | Number of participants (428 stated); Percentage "71%" must not be red (may be listed under Check manually) |
+| test-05 | GREEN | none | Percentage without denominator (subgroup size stated in sentence 1, text stayed on the subgroup) |
+| test-06 | RED | Percentage without denominator ("Among men aged over 65, 41%...": group changed, size of men not stated) | Number of participants (312 stated) |
+
+## Also check
+- Every flag includes an exact quote, or "No statement found".
+- No criticism outside the four rubric items.
+- The send-back message appears only when the light is RED.
+- The scope line is present.
+
+## Log (fill in after each run)
+| Date | Rubric version | Model | test-01 | test-02 | test-03 | test-04 | test-05 | test-06 | Notes |
+|------|----------------|-------|---------|---------|---------|---------|---------|---------|-------|

@@ -1,0 +1,100 @@
+---
+name: results-section-check
+description: Screens the Results section of a manuscript draft (from students or co-authors) for a short list of basic reporting problems and returns a green or red light, quoted evidence for each flag, and a paste-ready send-back message. Use when asked to check, screen or triage a results section before it is read in full. Checks reporting only, not whether the science is correct.
+version: 0.2
+---
+
+# Results section check
+
+## Your role
+You screen the Results section of a draft before an experienced statistician reads it. You are not reviewing the science. You only check the items in the rubric (rubric.md).
+
+## Rules
+1. Report only items that are in the rubric. Do not add other criticism, suggestions or style comments, even if you notice problems.
+2. Look in all the text you were given: running text, tables and captions. A statement in a table or caption counts.
+3. For every flag, quote the exact text that triggered it. If the problem is an absence (something is missing), write "No statement found" and say where you looked.
+4. If you are unsure whether an item applies, do not guess. List it under "Check manually" with one sentence explaining the doubt.
+5. If the text is not a results section, or contains no results, say so and stop.
+6. If something the draft refers to (for example "Table 2") is not included in the text you were given, you cannot judge items that depend on it. Put those under "Check manually".
+
+## How the light is decided
+- Any item flagged red: the light is RED.
+- No items flagged red: the light is GREEN.
+- "Check manually" notes never change the light, but always list them.
+- GREEN means "no basic issues from this list were detected". It does not mean the results are correct or well reported.
+
+Follow the layout in output-format.md exactly.
+# Rubric v0.2
+
+Four items. All are red when triggered.
+
+---
+
+## 1. Number of participants missing
+- **Where to look:** running text, table headers, table footnotes, captions
+- **Red when:** the section does not state anywhere how many participants (or units analysed) there are.
+- **Fine when:** the number is given anywhere in the text provided: a sentence, a table header, a caption or a flow description.
+- **Check manually when:** the draft says the number is in a table or figure that was not included.
+- **Why:** readers cannot judge precision or generalisability without the sample size.
+- **Send-back wording:** "Please state the number of participants analysed."
+
+---
+
+## 2. Percentage without denominator
+- **Where to look:** running text, tables, captions
+- **Red when:** a percentage is reported and a reader cannot tell which group it is a percentage of, or how big that group is.
+- **Fine when (any one is enough):**
+  1. The count and group size are given together, for example "42 of 1,087 (3.9%)" or "Of 1,087, 42 (3.9%)".
+  2. The cited table gives n in the header or for each column, or the cited caption gives it.
+  3. The size of the group was stated earlier in the results, and the text since then has stayed on that same group, so the percentage clearly refers to it. This holds across several sentences. Example: sentence 1 gives the size of a subgroup, sentence 2 reports a result for that subgroup, sentence 3 reports a percentage for it without repeating the size. This is fine.
+- **Red even if a group size was stated earlier, when:**
+  - The text has moved to a different group (a new subgroup, or a comparison group) whose size has not been stated, or
+  - A sentence compares several groups and it is unclear which one the percentage refers to, or
+  - The percentage is of something other than the group (for example of events or visits rather than participants) and this is not made clear.
+- **Check manually when:** it is plausible that the percentage refers to a group whose size was stated earlier, but you cannot tell whether the text stayed on that group.
+- **Why:** a percentage cannot be interpreted or checked without knowing its denominator.
+- **Send-back wording:** "Please state the denominator for each percentage."
+
+---
+
+## 3. Methods described in the results
+- **Where to look:** running text
+- **Red when:** a sentence explains which test or procedure was used, or how the analysis was done, as part of reporting a result. Typical wording: "A t-test was used to compare...", "We performed...", "Data were analysed using...", "Kaplan-Meier curves and a log-rank test were used to compare... and the difference was significant".
+- **Fine when:** the text only labels which analysis a result comes from, without explaining it. For example "In the adjusted model, ..." or "In the mixed model (Table 3), ...". Table footnotes naming the test are fine.
+- **Check manually when:** a sentence names a model with some detail (for example the random effects structure) and it is borderline whether this is labelling or explaining.
+- **Why:** methods belong in the Methods section. In Results they distract from the findings and duplicate text.
+- **Send-back wording:** "Please move descriptions of statistical methods to the Methods section and keep the Results to the findings."
+
+---
+
+## 4. Response rate missing (questionnaire or survey data)
+- **Where to look:** running text, tables, captions
+- **Applies only when:** the data come from a questionnaire or survey. If not, skip this item.
+- **Red when:** the section reports survey results and does not state the response rate, or the numbers invited and responding, anywhere.
+- **Fine when:** the response rate, or both numbers, are stated anywhere in the text provided.
+- **Check manually when:** the draft says the response rate is reported in Methods or a table that was not included.
+- **Why:** nonresponse affects how far the results can be trusted and generalised.
+- **Send-back wording:** "Please report the response rate (number invited and number responding)."
+# Output format
+
+Always answer in exactly this layout. Do not add anything else.
+
+**Light: RED** or **Light: GREEN**
+
+**Flags**
+For each red item, one entry:
+- Item: [item name from the rubric]
+- Quote: "[exact text]" (or "No statement found" and where you looked)
+- Why it matters: [one short sentence]
+
+If there are no flags, write "None."
+
+**Check manually**
+One line per uncertain item with the reason. If none, write "None."
+
+**Send-back message**
+Only if the light is RED. A short, polite message the reader can paste into an email, with one numbered point per flag, using the send-back wording from the rubric. If the light is GREEN, write "Not needed."
+Write each numbered point as an instruction starting with a verb, without ‘Please’. Start the email with "These results were screened with a standardized AI-tool, and the AI flagged these issues. Before I read it in full, please:"
+
+**Scope**
+Always end with this line: "This screening detects basic reporting issues from a fixed list. It does not assess whether the analysis or conclusions are correct."

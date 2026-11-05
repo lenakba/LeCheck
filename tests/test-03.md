@@ -1,0 +1,1 @@
+Results: Among the 156 patients, 94 (60%) were female. We used Kaplan-Meier curves and a log-rank test to compare survival between groups, which showed a significant difference (p = 0.004). Median survival was 28 months in group A and 19 months in group B.

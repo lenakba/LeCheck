@@ -1,0 +1,1 @@
+Results: A total of 312 adults were included, of whom 80 were women aged over 65. In this subgroup, mean systolic blood pressure was 148 mmHg (SD 16). Among men aged over 65, 41% used antihypertensive treatment.

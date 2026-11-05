@@ -1,0 +1,1 @@
+Results: Participants were randomised to exercise or control. The exercise group improved more on the depression score (mean difference -3.1, 95% CI -4.5 to -1.7). Adherence was high, with 80% attending at least ten sessions.

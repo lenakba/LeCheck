@@ -1,0 +1,1 @@
+Results: Of 1,203 eligible patients in the register, 1,087 (90%) were included. Median length of stay was 6 days (IQR 4-9). In-hospital mortality was 42 of 1,087 (3.9%). Adjusted odds ratios are shown in Table 2.
