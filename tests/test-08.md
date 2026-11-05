@@ -1,0 +1,1 @@
+Results: Table 2 reports 533 measurements from 229 patients across three timepoints. Among the 146 patients with a baseline measurement, 131 (90%) had a score above the clinical threshold.

@@ -49,3 +49,24 @@ Four items. All are red when triggered.
 - **Check manually when:** the draft says the response rate is reported in Methods or a table that was not included.
 - **Why:** nonresponse affects how far the results can be trusted and generalised.
 - **Send-back wording:** "Please report the response rate (number invited and number responding)."
+
+---
+
+## 5. Percentage does not match the stated denominator
+- **Where to look:** running text, tables, captions
+- **Red when:** a count with a percentage is reported, a group size is stated
+  for that group anywhere in the text, tables or captions, and count divided
+  by group size differs from the reported percentage by more than rounding.
+  Calculate it and show the calculation in the flag.
+- **Also red when:** the percentage matches no stated group size and the text
+  does not say which denominator was used (for example "among those with
+  baseline data").
+- **Fine when:** it matches a stated group size within rounding, or the text
+  names the different denominator and its size.
+- **Check manually when:** several group sizes are stated and the percentage
+  matches none, but the text could refer to a subset.
+- **Why:** a mismatch usually means missing data, a different denominator, or
+  an error, and the reader cannot reconstruct which.
+- **Send-back wording:** "State the denominator for each percentage and explain
+  any difference from the total sample (for example missing data at a
+  timepoint)."

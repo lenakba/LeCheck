@@ -1,0 +1,1 @@
+Table 2 reports 533 responses from 229 patients across three timepoints. Among the 146 patients who answered at baseline, 131 (90%) agreed or strongly agreed that the programme was useful.
