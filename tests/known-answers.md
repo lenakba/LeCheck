@@ -18,6 +18,7 @@ Compare the assistant's output with this for each test. Re-run all six after eve
 - Every flag includes an exact quote, or "No statement found".
 - No criticism outside the four rubric items.
 - The send-back message appears only when the light is RED.
+- The send-back opening is copied exactly.
 - The scope line is present.
 
 ## Log (fill in after each run)
