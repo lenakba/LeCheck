@@ -1,0 +1,1 @@
+Of the 11 patients with a baseline blood sample, 1 (9%) had elevated CRP, 2 (18%) had elevated ferritin, and 5 (45%) had low haemoglobin.

@@ -13,7 +13,9 @@ Compare the assistant's output with this for each test. Re-run all six after eve
 | test-07 | RED | Percentage does not match the stated denominator ("131 (90%)": 131/229 is 57%, no other denominator named) | Number of participants (229 stated); Response rate (not survey data) |
 | test-08 | GREEN | none | Percentage does not match the stated denominator (131/146 = 90%, named in the text); Response rate |
 | test-09 | RED | Response rate missing | Percentage does not match the stated denominator (146 is named); Number of participants |
-
+| test-10 | GREEN | none | Percentage does not match the stated denominator (1/11 = 9%, 2/11 = 18%, 5/11 = 45%); Response rate (not survey data) |
+| test-11 | RED | Percentage does not match the stated denominator ("5 (30%)": 5 / 11 = 45%, reported 30%) | Number of participants (11 stated); Response rate (not survey data) |
+| test-12 | GREEN | none; item 5 may appear under Check manually ("1 (10%)": 1 / 11 = 9%, reported 10%) | Item 5 must not be red; Response rate (not survey data) |
 ## Also check
 - Every flag includes an exact quote, or "No statement found".
 - No criticism outside the four rubric items.

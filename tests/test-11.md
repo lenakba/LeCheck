@@ -1,0 +1,1 @@
+Of the 11 patients with a baseline blood sample, 5 (30%) had low haemoglobin.

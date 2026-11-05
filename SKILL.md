@@ -1,7 +1,7 @@
 ---
 name: results-section-check
 description: Screens the Results section of a manuscript draft (from students or co-authors) for a short list of basic reporting problems and returns a green or red light, quoted evidence for each flag, and a paste-ready send-back message. Use when asked to check, screen or triage a results section before it is read in full. Checks reporting only, not whether the science is correct.
-version: 0.3
+version: 0.4
 ---
 
 # Results section check

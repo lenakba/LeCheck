@@ -1,4 +1,4 @@
-# Rubric v0.2
+# Rubric v0.4
 
 Four items. All are red when triggered.
 
@@ -54,19 +54,15 @@ Four items. All are red when triggered.
 
 ## 5. Percentage does not match the stated denominator
 - **Where to look:** running text, tables, captions
-- **Red when:** a count with a percentage is reported, a group size is stated
-  for that group anywhere in the text, tables or captions, and count divided
-  by group size differs from the reported percentage by more than rounding.
-  Calculate it and show the calculation in the flag.
-- **Also red when:** the percentage matches no stated group size and the text
-  does not say which denominator was used (for example "among those with
-  baseline data").
-- **Fine when:** it matches a stated group size within rounding, or the text
-  names the different denominator and its size.
-- **Check manually when:** several group sizes are stated and the percentage
-  matches none, but the text could refer to a subset.
-- **Why:** a mismatch usually means missing data, a different denominator, or
-  an error, and the reader cannot reconstruct which.
-- **Send-back wording:** "State the denominator for each percentage and explain
-  any difference from the total sample (for example missing data at a
-  timepoint)."
+- **Applies when:** a count is reported together with a percentage (for example "5 (45%)"), and the size of the group it refers to is stated or can be identified from the text, tables or captions.
+- **How to check:** calculate count / group size x 100 and compare with the reported percentage. Round to whole numbers unless the draft reports decimals, in which case round to the same number of decimals as the draft.
+- **Red when:**
+  - the calculated and reported percentages differ by **more than 1 percentage point**, or
+  - the percentage matches none of the group sizes stated in the text and the text does not name which denominator was used (for example "among those with baseline data").
+- **Check manually when:**
+  - the reported percentage differs from the correctly rounded value by **1 percentage point or less** (for example 1 of 11 reported as 10% when the rounded value is 9%), or
+  - several group sizes are stated, the percentage matches none of them, and the text could be referring to a subset.
+- **Fine when:** the reported percentage equals the correctly rounded value, or the text names a different denominator and gives its size and the percentage matches it.
+- **Show the calculation:** for every red or check-manually flag, give the sum in the form "count / denominator = x% (reported y%)". If several percentages in the same sentence fail, list one calculation for each. Keep the quote to the shortest part of the sentence that contains the numbers.
+- **Why:** a mismatch usually means missing data, a different denominator, or a calculation error, and the reader cannot tell which.
+- **Send-back wording:** "Check each percentage against its denominator, and state the denominator when it differs from the total sample (for example because of missing data at a timepoint)."

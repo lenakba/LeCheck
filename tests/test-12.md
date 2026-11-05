@@ -1,0 +1,1 @@
+Of the 11 patients with a baseline blood sample, 1 (10%) had elevated CRP.
