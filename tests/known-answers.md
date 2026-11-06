@@ -17,6 +17,9 @@ Compare the assistant's output with this for each test. Re-run all six after eve
 | test-11 | RED | Percentage does not match the stated denominator ("5 (30%)": 5 / 11 = 45%, reported 30%) | Number of participants (11 stated); Response rate (not survey data) |
 | test-12 | GREEN | none; item 5 may appear under Check manually ("1 (10%)": 1 / 11 = 9%, reported 10%) | Item 5 must not be red; Response rate (not survey data) |
 | test-13 | RED | Percentage without denominator ("At T1, 131 (90%) had a score above the threshold (Table 5)."): the only stated group sizes are the overall 229 patients and 533 measurements, and the T1 total (146) could only be found by adding up the column | Percentage does not match the stated denominator (no T1 denominator is stated, so item 5 is "not applicable (denominator not stated)"); Number of participants (229 stated); Response rate (not survey data); Methods in results |
+| test-14 | GREEN | none required; item 3 may appear under Check manually (sensitivity-analysis sentence with extra detail about which patients were removed) | Item 3 must not be red; Number of participants (stated); Percentage items; Response rate (not survey data) |
+| test-15 | RED | Methods described in the results ("A paired-samples t-test was used to compare scores at baseline and follow-up..."); the Pattern line names the matched red pattern | Number of participants (stated); Percentage items; Response rate (not survey data) |
+| test-16 | GREEN | none required; item 3 may appear under Check manually (mixed model with a list of covariates or random-effects structure) | Item 3 must not be red; Number of participants (stated); Percentage items; Response rate (not survey data) |
 
 ## Also check
 - Every flag includes an exact quote, or "No statement found".
