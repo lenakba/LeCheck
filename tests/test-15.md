@@ -1,0 +1,1 @@
+Results: Among 140 patients, a paired-samples t-test was used to compare scores at baseline and follow-up, and the change was significant (mean difference -4.2, 95% CI -5.6 to -2.8).

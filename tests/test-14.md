@@ -1,0 +1,1 @@
+Results: Among 140 patients, the beta for treatment in the gender-adjusted model was -2.1 (95% CI -3.4 to -0.8). In the complete case analysis (n = 118) the estimate was -2.3 (95% CI -3.8 to -0.8), while in the IPW-adjusted model it was -2.0 (95% CI -3.3 to -0.7). When patients who were lost to follow-up were excluded, the estimate changed to -1.8 (95% CI -3.1 to -0.5).

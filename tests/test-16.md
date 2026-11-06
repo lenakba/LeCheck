@@ -1,0 +1,1 @@
+Results: Among 140 patients, in a mixed model with a random intercept for hospital and patient and fixed effects for smoking and disease, the estimate for treatment was -2.1 (95% CI -3.4 to -0.8).
