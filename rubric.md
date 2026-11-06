@@ -21,11 +21,15 @@ Five items. All are red when triggered. Send-back wording is not part of this fi
   1. The count and group size are given together, for example "42 of 1,087 (3.9%)" or "Of 1,087, 42 (3.9%)".
   2. The cited table gives n in the header or for each column, or the cited caption gives it.
   3. The size of the group was stated earlier in the results, and the text since then has stayed on that same group, so the percentage clearly refers to it. This holds across several sentences. Example: sentence 1 gives the size of a subgroup, sentence 2 reports a result for that subgroup, sentence 3 reports a percentage for it without repeating the size. This is fine.
+- **Derived denominators do not count:** a denominator that could only be found by adding up counts in a table or column is not stated. Do not do this addition yourself. Flag the percentage as red, and note in the finding that the denominator for this percentage is not stated.
 - **Red even if a group size was stated earlier, when:**
   - The text has moved to a different group (a new subgroup, or a comparison group) whose size has not been stated, or
   - A sentence compares several groups and it is unclear which one the percentage refers to, or
   - The percentage is of something other than the group (for example of events or visits rather than participants) and this is not made clear.
-- **Check manually when:** it is plausible that the percentage refers to a group whose size was stated earlier, but you cannot tell whether the text stayed on that group.
+  - The only group size stated in the text, tables or captions is a different group from the one the percentage refers to (for example the total sample across all timepoints, when the percentage is for one timepoint with missing data), and no group size is stated for this percentage.
+- **Check manually when:** 
+  - it is plausible that the percentage refers to a group whose size was stated earlier, but you cannot tell whether the text stayed on that group.
+  - the text cites a table or caption that was not included in the text provided.
 - **Why:** a percentage cannot be interpreted or checked without knowing its denominator.
 
 ---
