@@ -1,6 +1,6 @@
-# Rubric v0.4
+# Rubric v0.6
 
-Four items. All are red when triggered.
+Five items. All are red when triggered. Send-back wording is not part of this file: it lives in `report-format.md` and is used by LeReport only.
 
 ---
 
@@ -10,7 +10,6 @@ Four items. All are red when triggered.
 - **Fine when:** the number is given anywhere in the text provided: a sentence, a table header, a caption or a flow description.
 - **Check manually when:** the draft says the number is in a table or figure that was not included.
 - **Why:** readers cannot judge precision or generalisability without the sample size.
-- **Send-back wording:** "Please state the number of participants analysed."
 - **Reporting:** this is a whole-section check. Flag it once if the information is missing anywhere in the section. Do not flag it per sentence or per table.
 
 ---
@@ -28,7 +27,6 @@ Four items. All are red when triggered.
   - The percentage is of something other than the group (for example of events or visits rather than participants) and this is not made clear.
 - **Check manually when:** it is plausible that the percentage refers to a group whose size was stated earlier, but you cannot tell whether the text stayed on that group.
 - **Why:** a percentage cannot be interpreted or checked without knowing its denominator.
-- **Send-back wording:** "Please state the denominator for each percentage."
 
 ---
 
@@ -38,7 +36,6 @@ Four items. All are red when triggered.
 - **Fine when:** the text only labels which analysis a result comes from, without explaining it. For example "In the adjusted model, ..." or "In the mixed model (Table 3), ...". Table footnotes naming the test are fine.
 - **Check manually when:** a sentence names a model with some detail (for example the random effects structure) and it is borderline whether this is labelling or explaining.
 - **Why:** methods belong in the Methods section. In Results they distract from the findings and duplicate text.
-- **Send-back wording:** "Please move descriptions of statistical methods to the Methods section and keep the Results to the findings."
 
 ---
 
@@ -49,7 +46,6 @@ Four items. All are red when triggered.
 - **Fine when:** the response rate, or both numbers, are stated anywhere in the text provided.
 - **Check manually when:** the draft says the response rate is reported in Methods or a table that was not included.
 - **Why:** nonresponse affects how far the results can be trusted and generalised.
-- **Send-back wording:** "Please report the response rate (number invited and number responding)."
 - **Reporting:** this is a whole-section check. Flag it once if the information is missing anywhere in the section. Do not flag it per sentence or per table.
 
 ---
@@ -65,6 +61,5 @@ Four items. All are red when triggered.
   - the reported percentage differs from the correctly rounded value by **1 percentage point or less** (for example 1 of 11 reported as 10% when the rounded value is 9%), or
   - several group sizes are stated, the percentage matches none of them, and the text could be referring to a subset.
 - **Fine when:** the reported percentage equals the correctly rounded value, or the text names a different denominator and gives its size and the percentage matches it.
-- **Show the calculation:** for every red or check-manually flag, give the calculation for the first occurrence only. For other occurrences, follow the limit in output-format.md.
+- **Show the calculation:** for every occurrence of a red flag, give one calculation line in the form "count / denominator = x% (reported y%)", as set out in `detect-format.md`. For a check-manually flag, put the calculation in the check-manually line.
 - **Why:** a mismatch usually means missing data, a different denominator, or a calculation error, and the reader cannot tell which.
-- **Send-back wording:** "Check each percentage against its denominator, and state the denominator when it differs from the total sample (for example because of missing data at a timepoint)."

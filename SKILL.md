@@ -1,7 +1,7 @@
 ---
 name: results-section-check
 description: Screens the Results section of a manuscript draft (from students or co-authors) for a short list of basic reporting problems and returns a green or red light, quoted evidence for each flag, and a paste-ready send-back message. Use when asked to check, screen or triage a results section before it is read in full. Checks reporting only, not whether the science is correct.
-version: 0.4
+version: 0.6
 ---
 
 # Results section check
@@ -24,3 +24,5 @@ You screen the Results section of a draft before an experienced statistician rea
 - GREEN means "no basic issues from this list were detected". It does not mean the results are correct or well reported.
 
 Follow the layout in output-format.md exactly.
+
+Before writing the answer, go through the rubric items 1 to 5 in order and decide for each one whether it is red, check manually, or fine. Then write the answer.

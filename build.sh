@@ -1,13 +1,8 @@
 #!/bin/sh
-# Builds assistant-instructions.txt from the core files so the pasted
-# instructions always match the version in git.
-# Usage: sh build.sh   (then paste the contents into the assistant's instruction field)
-{
-  awk 'BEGIN{fm=0} /^---$/ && fm<2 {fm++; next} fm>=2 {print}' SKILL.md
-  echo
-  cat rubric.md
-  echo
-  cat output-format.md
-} > assistant-instructions.txt
-wc -c assistant-instructions.txt
-echo "(The assistant's instruction field takes 56,000 characters.)"
+# Builds one instruction file per assistant.
+# LeCheck: SKILL.md (without its header) + rubric.md + output-format.md + detect-format.md
+# LeReport: report-format.md + output-format.md
+strip() { awk 'BEGIN{fm=0} /^---$/ && fm<2 {fm++; next} fm>=2 {print}' "$1"; }
+{ strip SKILL.md; echo; cat rubric.md; echo; cat output-format.md; echo; cat detect-format.md; } > lecheck-instructions.txt
+{ cat report-format.md; echo; cat output-format.md; } > lereport-instructions.txt
+wc -c lecheck-instructions.txt lereport-instructions.txt
