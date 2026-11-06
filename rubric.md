@@ -36,9 +36,21 @@ Five items. All are red when triggered. Send-back wording is not part of this fi
 
 ## 3. Methods described in the results
 - **Where to look:** running text
-- **Red when:** a sentence explains which test or procedure was used, or how the analysis was done, as part of reporting a result. Typical wording: "A t-test was used to compare...", "We performed...", "Data were analysed using...", "Kaplan-Meier curves and a log-rank test were used to compare... and the difference was significant".
-- **Fine when:** the text only labels which analysis a result comes from, without explaining it. For example "In the adjusted model, ..." or "In the mixed model (Table 3), ...". Table footnotes naming the test are fine.
-- **Check manually when:** a sentence names a model with some detail (for example the random effects structure) and it is borderline whether this is labelling or explaining.
+- **Default:** a sentence is NOT a methods description. It is red only if it contains one of the red patterns below.
+- **Red patterns.** The test or procedure must be the subject of the sentence, or the object of a verb such as used, performed, applied, conducted or carried out:
+  - "A t-test was used to compare..."
+  - "A paired-samples t-test showed...", "...was performed..."
+  - "We performed / conducted / applied..."
+  - "Data were analysed using..."
+  - mentions of software or packages
+  - statements about assumptions that were checked
+A phrase that starts with "in the" or "in a" and names a model or analysis ("in the gender-adjusted model", "in a mixed model with...") is a label, never a red pattern.
+- **Decide in this order:**
+  1. Is there a red pattern? If yes, red. If you cannot name the pattern, it is not red.
+  2. If not, does the sentence carry extra detail about the analysis: a list of covariates, the random-effects structure, or the reason or criterion for excluding patients? If yes, check manually.
+  3. Otherwise, fine.
+- **Fine (labels):** the sentence reports a result and only says which analysis it comes from: "In the gender-adjusted model...", "In the complete case analysis...", "In the IPW-adjusted model...", "When 9 patients were removed in the sensitivity analysis...", "In the imputed data...". Table footnotes naming the test are also fine.
+- **Check manually, not red:** "In a mixed model with a random intercept for patient and fixed effects for time, age and sex, the estimate was..." and "When patients with outlying values were removed, the estimate was...".
 - **Why:** methods belong in the Methods section. In Results they distract from the findings and duplicate text.
 
 ---
