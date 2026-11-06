@@ -31,6 +31,7 @@ Five items. All are red when triggered. Send-back wording is not part of this fi
   - it is plausible that the percentage refers to a group whose size was stated earlier, but you cannot tell whether the text stayed on that group.
   - the text cites a table or caption that was not included in the text provided.
 - **Why:** a percentage cannot be interpreted or checked without knowing its denominator.
+- **Not flagged here:** a response or participation rate (the share of invited people who responded). Those are covered by item 4. Do not flag them under item 2.
 
 ---
 
@@ -44,12 +45,15 @@ Five items. All are red when triggered. Send-back wording is not part of this fi
   - "Data were analysed using..."
   - mentions of software or packages
   - statements about assumptions that were checked
-A phrase that starts with "in the" or "in a" and names a model or analysis ("in the gender-adjusted model", "in a mixed model with...") is a label, never a red pattern.
+  - "Data were analysed using [a named method or software]...". 
 - **Decide in this order:**
   1. Is there a red pattern? If yes, red. If you cannot name the pattern, it is not red.
   2. If not, does the sentence carry extra detail about the analysis: a list of covariates, the random-effects structure, or the reason or criterion for excluding patients? If yes, check manually.
   3. Otherwise, fine.
-- **Fine (labels):** the sentence reports a result and only says which analysis it comes from: "In the gender-adjusted model...", "In the complete case analysis...", "In the IPW-adjusted model...", "When 9 patients were removed in the sensitivity analysis...", "In the imputed data...". Table footnotes naming the test are also fine.
+- **Fine (labels and sample size):** 
+  - the sentence reports a result and only says which analysis it comes from: "In the gender-adjusted model...", "In the complete case analysis...", "In the IPW-adjusted model...", "When 9 patients were removed in the sensitivity analysis...", "In the imputed data...". Table footnotes naming the test are also fine.
+  - A phrase that starts with "in the" or "in a" and names a model or analysis ("in the gender-adjusted model", "in a mixed model with...") is a label, never a red pattern.
+  - The words "were analysed" or "were included" on their own, with no named test, procedure or software, are NOT a red pattern. They state the sample and are fine. “Questionnaires from 428 students were analysed.”
 - **Check manually, not red:** "In a mixed model with a random intercept for patient and fixed effects for time, age and sex, the estimate was..." and "When patients with outlying values were removed, the estimate was...".
 - **Why:** methods belong in the Methods section. In Results they distract from the findings and duplicate text.
 
@@ -58,11 +62,10 @@ A phrase that starts with "in the" or "in a" and names a model or analysis ("in 
 ## 4. Response rate missing (questionnaire or survey data)
 - **Where to look:** running text, tables, captions
 - **Applies only when:** the data come from a questionnaire or survey. If not, skip this item.
-- **Red when:** the section reports survey results and does not state the response rate, or the numbers invited and responding, anywhere.
-- **Fine when:** the response rate, or both numbers, are stated anywhere in the text provided.
-- **Check manually when:** the draft says the response rate is reported in Methods or a table that was not included.
-- **Why:** nonresponse affects how far the results can be trusted and generalised.
-- **Reporting:** this is a whole-section check. Flag it once if the information is missing anywhere in the section. Do not flag it per sentence or per table.
+- **How to check:** search the pasted text, tables and captions for the words "response", "responded", "responders", "invited", "participation" and "completed". If any sentence gives a response rate (as a percentage) or the numbers invited and responding, the item is fine. Stop there.
+- **Red when:** none of those words appear in a sentence that gives a rate or counts.
+- **Fine when:** a response rate as a percentage ("The response rate was 74%"), or the numbers invited and responding. A percentage alone is sufficient.
+- **Self-check:** an item 4 flag must quote "No statement found". If you can quote a sentence that states a response rate, the item is fine and must not be flagged.
 
 ---
 

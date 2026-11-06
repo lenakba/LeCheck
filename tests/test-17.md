@@ -1,0 +1,1 @@
+Results: The response rate at baseline was 74% for caregivers and 65% for adolescents. Of the 118 caregivers and 42 adolescents who responded, 61 (52%) of the caregivers agreed that the programme was useful.

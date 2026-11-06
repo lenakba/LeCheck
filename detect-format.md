@@ -12,6 +12,7 @@ One entry per red item, in item order. Write "None." if there are no red items. 
 - Item: [item name from the rubric]
 - Quote: "[exact text of the first occurrence]" (or "No statement found" and where you looked)
 - Other occurrences: list every further occurrence of the same problem, one entry each, giving the first few words of the sentence or table row in quotation marks. Do not stop at a fixed number. If there are none, write "None found". For absence items, write "Not applicable".
+- For "Number of participants missing" and "Response rate missing", the quote line must read: No statement found (searched for: [the words you searched for]). Write this only after searching. If a search term appears in a sentence that supplies the information, the item is fine and must not be flagged.
 - Calculation (item 5 only): one line for each occurrence, in the form "[count] / [denominator] = [x]% (reported [y]%)". The denominator is the group size stated in the text, tables or captions for that group.
 - Pattern (item 3 only): the red pattern the sentence matches, in a few words
 - Why it matters: [one short sentence]
