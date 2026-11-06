@@ -16,14 +16,11 @@ Compare the assistant's output with this for each test. Re-run all six after eve
 | test-10 | GREEN | none | Percentage does not match the stated denominator (1/11 = 9%, 2/11 = 18%, 5/11 = 45%); Response rate (not survey data) |
 | test-11 | RED | Percentage does not match the stated denominator ("5 (30%)": 5 / 11 = 45%, reported 30%) | Number of participants (11 stated); Response rate (not survey data) |
 | test-12 | GREEN | none; item 5 may appear under Check manually ("1 (10%)": 1 / 11 = 9%, reported 10%) | Item 5 must not be red; Response rate (not survey data) |
+| test-13 | RED | Percentage without denominator ("At T1, 131 (90%) had a score above the threshold (Table 5)."): the only stated group sizes are the overall 229 patients and 533 measurements, and the T1 total (146) could only be found by adding up the column | Percentage does not match the stated denominator (no T1 denominator is stated, so item 5 is "not applicable (denominator not stated)"); Number of participants (229 stated); Response rate (not survey data); Methods in results |
 
 ## Also check
 - Every flag includes an exact quote, or "No statement found".
 - No criticism outside the four rubric items.
-
-## Log (fill in after each run)
-| Date | Rubric version | Model | test-01 | test-02 | test-03 | test-04 | test-05 | test-06 | test-07 | test-08 | Notes |
-|------|----------------|-------|---------|---------|---------|---------|---------|---------|---------|---------|-------|
 
 ## Check for LeReport
 - The send-back message appears only when the light is RED.
