@@ -20,12 +20,16 @@ Compare the assistant's output with this for each test. Re-run all six after eve
 | test-14 | GREEN | none required; item 3 may appear under Check manually (sensitivity-analysis sentence with extra detail about which patients were removed) | Item 3 must not be red; Number of participants (stated); Percentage items; Response rate (not survey data) |
 | test-15 | RED | Methods described in the results ("A paired-samples t-test was used to compare scores at baseline and follow-up..."); the Pattern line names the matched red pattern | Number of participants (stated); Percentage items; Response rate (not survey data) |
 | test-16 | GREEN | none required; item 3 may appear under Check manually (mixed model with a list of covariates or random-effects structure) | Item 3 must not be red; Number of participants (stated); Percentage items; Response rate (not survey data) |
+| test-17 | GREEN | none | Number of participants (118 caregivers and 42 adolescents stated); Percentage without denominator (response rates belong to item 4; "61 (52%)" has its group, the 118 caregivers); Response rate (stated as 74% and 65%); Percentage does not match the stated denominator (61 / 118 = 52%) |
 
 ## Also check
 - Every flag includes an exact quote, or "No statement found".
 - No criticism outside the four rubric items.
 - For any red item 3 flag, the Pattern line names a red pattern (test or procedure as subject or object of used/performed/applied, software, or checked assumptions). If it cannot name one, the flag should not be red.
 - Every item marked "check manually" in the Item status line has its own line under Check manually, with the quote.
+- For "Number of participants missing" and "Response rate missing", the quote line reads "No statement found (searched for: [terms])". If a sentence supplying the information can be quoted, the item must not be flagged.
+- A response or participation rate is never flagged under item 2.
+- "Were analysed" or "were included" with no named test, procedure or software is not flagged under item 3.
 
 ## Check for LeReport
 - The send-back message appears only when the light is RED.
